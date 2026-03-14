@@ -1,0 +1,27 @@
+{
+  "name": "working_with_copilot_cli",
+  "version": "1.0.0",
+  "description": "A Node.js CLI calculator for basic arithmetic operations.",
+  "main": "src/calculator.js",
+  "bin": {
+    "calculator": "./src/calculator.js"
+  },
+  "scripts": {
+    "start": "node src/calculator.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CitiVision/Working_with_CoPIlot_CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CitiVision/Working_with_CoPIlot_CLI/issues"
+  },
+  "homepage": "https://github.com/CitiVision/Working_with_CoPIlot_CLI#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
